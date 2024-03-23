@@ -22,7 +22,7 @@
 <h1 align="center"><em>Как установить и запустить бота**</em></h1>
 </p>
 
-`NodeJS` | [**Скачать**](https://nodejs.org/en/download/)
+Для работы бота вам потребуется `NodeJS` | [**Скачать**](https://nodejs.org/en/download/)
 
 Откройте терминал (`Git Bash` / `CMD` / `Terminal` / `PowerShell` и т.д.) и выполните следующие команды:
 
