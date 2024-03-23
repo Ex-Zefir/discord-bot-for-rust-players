@@ -19,6 +19,21 @@
 ## **Что за что отвечает в Config.json**
 
 
-## **Как установить и запустить бота**
+<h1 align="center"><em>Как установить и запустить бота**</em></h1>
+</p>
 
- 
+Программа | версия | Скачать |
+------- | ------- | -------- | ----
+`NodeJS` | >= 16.9 | [**here**](https://nodejs.org/en/download/)
+`Git` | Любая | [**here**](https://git-scm.com/downloads)
+
+Откройте терминал (`Git Bash` / `CMD` / `Terminal` / `PowerShell` и т.д.) и выполните следующие команды:
+
+    $ git clone https://github.com/Ex-Zefir/discord-bot-for-rust-players.git
+    $ cd discord-bot-for-rust-players
+    $ npm install
+
+Чтобы запустить бота:
+    node index
+    
+**Незабудьте настроить Config.json**
