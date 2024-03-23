@@ -13,7 +13,7 @@ module.exports = async (client) => {
   })), {
     debug: true
   });
-  // Register slash commands - ( If you are one of those people who read the codes I highly suggest ignoring this because I am very bad at what I am doing, thanks LMAO )
+  // Регистрация слеш команд - (Если вы один из тех людей, которые читают код, я настоятельно рекомендую игнорировать это, потому что я очень плох в том, что я делаю, спасибо)
   console.log(`[ / | Слеш команды ] - ✅ Загружены все  слеш команды!`)
   console.log(`[СТАТУС] ${client.user.tag} авторизовался, бот в онлайне!`);
   client.user.setPresence({ activities: [{name: config['sitename'], type: ActivityType.Watching}], status: 'online'});

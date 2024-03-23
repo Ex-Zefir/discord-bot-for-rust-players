@@ -10,15 +10,15 @@ const { CONRUSTBOTS3,
       } = require('../../cfg/ISMSG.js');
 
 module.exports = async (client, interaction) => {
- // Check if our interaction is a slash command
+ // Проверяет, является ли взаимодействие слеш командой
     if (interaction.isCommand()) {
 
- // Get the command from our slash command collection
+ // Получает команду из коллекции слеш команд
     const command = client.interactions.get(interaction.commandName);
 
-// If command does not exist return an error message
+// Если команда не существует, вернет сообщение об ошибке
     if (!command) return interaction.reply({
-      content: "Something Went Wrong | Perhaps command not registered?",
+      content: "Что-то пошло не так | Возможно, команда не зарегистрирована?",
       ephemeral: true
     });
 

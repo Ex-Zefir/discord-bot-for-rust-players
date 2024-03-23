@@ -1,6 +1,6 @@
 const config = require("../../cfg/config.json");
 module.exports = (client, message) => {
-    // return if author is a bot
+    // возвращает, если бот - автор
     if (message.author.bot) return;
   
     if (message.member.roles.cache.has(config['clownrole'])) {
@@ -11,19 +11,19 @@ module.exports = (client, message) => {
         message.channel.send(config['otvet']);
     }
 
-    // return if message does not match prefix (in command)
+    // возвращает, если сообщение не соответствует префиксу (в команде)
     if (message.content.indexOf(client.config.prefix) !== 0) return;
   
-    // Defining what are arguments and commands
+    // Определение того, что такое аргументы и команды
     const args = message.content.slice(client.config.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
   
     // Get the command data from the client.commands Enmap
     const cmd = client.commands.get(command);
   
-    // If command does not exist return
+    // Если команда не существует
     if (!cmd) return;
   
-    // Run the command
+    // Запустить команду
     cmd.run(client, message, args);
 };
