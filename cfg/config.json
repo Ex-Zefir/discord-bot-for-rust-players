@@ -1,0 +1,28 @@
+{
+    "token":            "",
+    "steamApiKey":      "",
+    "prefix":           "!",
+    "sitename":         "",
+    "botname":          "",
+    "botid":            "",
+
+    "otvet": "",
+    
+    "RolesDescription": "",
+    "roleIds": ["", "", "", "", "", "", ""],
+    "OwnerRole":        "",
+
+    "clownrole":        "",
+    "clownsmile":       "",
+
+    "everyoneMention":false,
+    "hostedBy":true,
+    "copyright":        "WildBot™ v1.12 By Zefir",
+
+    "welcomeChannelId":    "",
+    "RulesChannelId":      "",
+    "SelectRoleChannelId": "",
+
+    "rustChannelId":    ""
+    
+}
