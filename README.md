@@ -30,7 +30,10 @@
     $ cd discord-bot-for-rust-players
     $ npm install
 
-Чтобы запустить бота:
-    node index
+
+Чтобы запустить бота введите:
+
+    $ node index
+
     
 **Незабудьте настроить Config.json**
